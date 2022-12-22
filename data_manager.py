@@ -1,7 +1,8 @@
 from pprint import pprint
 import requests
+import os
 
-SHEETY_PRICES_ENDPOINT = YOUR SHEETY PRICES ENDPOINT
+SHEETY_PRICES_ENDPOINT = os.environ["SHEETY_PRICES_ENDPOINT"]
 
 
 class DataManager:
